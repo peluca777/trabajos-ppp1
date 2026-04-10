@@ -10,7 +10,7 @@ Usando los métodos HTTP o path operations: GET, POST, PUT y DELETE.
 1. Primero creamos las carpetas (o directorios) en el cual crearemos el entorno virtual e instalaremos los paquetes.
 
 2. Crear un entorno virtual:
-   python -m venv venv
+   python3 -m venv venv
 
 3. Activar el entorno virtual:
   source venv/bin/activate
