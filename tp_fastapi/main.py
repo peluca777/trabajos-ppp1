@@ -13,7 +13,7 @@ app = FastAPI(
 )
 
 # ─── CORS ─────────────────────────────────────────────────────────────────────
-# Permite la conexión con el TP01 Evaluativo de PP1 - JavaScript
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
